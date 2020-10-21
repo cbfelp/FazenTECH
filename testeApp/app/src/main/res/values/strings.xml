@@ -1,0 +1,10 @@
+<resources>
+    <!--Strings Definidas para botões e ViewsTexts -->
+    <string name="app_name">FazenTech</string>
+    <string name="user">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="button">Login</string>
+    <string name="login_btn">Entrar</string>
+    <string name="cadastro_btn">Fazer Cadastro</string>
+
+</resources>

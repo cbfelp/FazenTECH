@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <!-- Base application theme.
+    <style name="Font" parent="TextAppearance.AppCompat">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,200&display=swap');
+    </style>
+    -->
+</resources>
