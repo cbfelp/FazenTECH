@@ -7,35 +7,50 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="355dp"
-        android:layout_height="58dp"
-        android:
-        android:background="@color/colorPrimary"
-        android:text="@string/cadastro_btn"
-        android:textAlignment="center"
-        android:textColor="@color/colorWhite"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="572dp" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="355dp"
-        android:layout_height="58dp"
-        android:background="@color/colorWhite"
-        android:text="@string/login_btn"
-        android:textAlignment="center"
-        android:textColor="@color/colorDark"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="651dp" />
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fazentech_logo"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="48dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/fazentech_logo"
+        tools:layout_editor_absoluteY="66dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/cadastro_btn"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="572dp"
+        android:layout_marginTop="50dp"
+        android:onClick="cadastr"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="@string/login_btn"
+        android:textAlignment="center"
+        android:textColor="@color/colorDark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="651dp"
+        android:layout_marginTop="25dp"
+        android:onClick="entrar"/>
+</RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
