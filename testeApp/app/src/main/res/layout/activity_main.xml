@@ -16,8 +16,9 @@
         android:text="@string/cadastro_btn"
         android:textAlignment="center"
         android:textColor="@color/colorWhite"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="572dp" />
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="569dp" />
 
     <Button
         android:id="@+id/button3"
@@ -27,8 +28,9 @@
         android:text="@string/login_btn"
         android:textAlignment="center"
         android:textColor="@color/colorDark"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="651dp" />
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="494dp" />
 
     <ImageView
         android:id="@+id/imageView2"
